@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 export default function Fetcher() {
-  const fetchRandomData = ()) => {
+  const fetchRandomData = () => {
   return axios.get('https://randomuser.me/api')
     .then(res => {
       console.log(res)
